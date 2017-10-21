@@ -57,4 +57,14 @@ document.addEventListener('DOMContentLoaded', function() {
   for (var i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', showHide);
   }
+    
+    // Zadanie 3
+    
+    window.addEventListener('scroll', function() {
+      var menu = document.querySelector(".navbar-nav");
+        console.log("linia");
+     menu.style.borderBottom = "1px solid #7f7f7f";       
+      });
+    
+    
 });
